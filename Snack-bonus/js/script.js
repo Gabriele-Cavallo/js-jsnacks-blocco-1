@@ -10,4 +10,6 @@ for (let i = 0; i < 10; i++) {
 }
 console.log('array' , numbers);
 // 2 - Controllo i numeri raccolti
-// 3 - Stampo in console il più grande
+//       - Stampo in console il più grande
+let biggerNumber = Math.max.apply(null, numbers);
+console.log('bigger-number' , biggerNumber);
