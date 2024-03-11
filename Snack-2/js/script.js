@@ -10,3 +10,4 @@ for (let i = 0; i < 5; i++) {
     sum += userNumber
 }
 // 3 - Stampo in console il risultato
+console.log('sum' , sum);
