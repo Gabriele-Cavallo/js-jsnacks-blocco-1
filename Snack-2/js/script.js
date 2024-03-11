@@ -2,7 +2,7 @@
 //   Il programma stampa la somma di tutti i numeri inseriti.
 
 // 1 - Chiedo all'utente 5 numeri
-// 2 - Sommo i numeri inseriti dall'utente
+//      2 - Sommo i numeri inseriti dall'utente
 sum = 0;
 for (let i = 0; i < 5; i++) {
     let userNumber = parseInt(prompt('Dimmi un numero'));
