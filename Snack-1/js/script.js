@@ -7,5 +7,8 @@ console.log('numbers-array' , numbers);
 for (let i = 0; i < 5; i++) {
     let userNumber = parseInt(prompt('Dimmi un numero'));
     console.log('user-number' , userNumber);
+    // 3 - Per ogni numeri se non è presente nell'arrey lo aggiungo
+    if (!numbers.includes(userNumber)){
+        numbers.push(userNumber);
+    }
 }
-// 3 - Per ogni numeri se non è presente nell'arrey lo aggiungo
