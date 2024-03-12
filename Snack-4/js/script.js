@@ -3,7 +3,7 @@
 // 1-Metodo senza array
 // 1 - Calcolo la somma dei primi 10 numeri
     // Faccio la media dei primi 10 numeri
-// sum = 0;
+// let sum = 0;
 // let avarage = 10;
 // for (let i = 1; i <= avarage; i++) {
 //     let number = i;
@@ -15,7 +15,7 @@
 
 // 2-Metodo con array
 const avarage = [];
-sum = 0;
+let sum = 0;
 for (let i = 1; i <= 10; i++) {
     let number = i;
     avarage.push(number);

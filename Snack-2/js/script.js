@@ -3,7 +3,7 @@
 
 // 1 - Chiedo all'utente 5 numeri
 //      2 - Sommo i numeri inseriti dall'utente
-sum = 0;
+let sum = 0;
 for (let i = 0; i < 5; i++) {
     let userNumber = parseInt(prompt('Dimmi un numero'));
     console.log('user-number' , userNumber);
